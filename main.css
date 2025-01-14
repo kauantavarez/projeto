@@ -1,0 +1,53 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos do Carrossel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Seção de Serviços */
+#servicos {
+    padding: 2em 0;
+}
+
+#servicos h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Seção de Contato */
+#contato {
+    padding: 2em 0;
+}
+
+#contato h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        justify-content: center;
+    }
+
+    #servicos .col-md-4 {
+        margin-bottom: 1em;
+    }
+
+    #contato .form-group {
+        margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #servicos .col-md-4,
+    #contato .form-group {
+        margin-bottom: 2em;
+    }
+}
